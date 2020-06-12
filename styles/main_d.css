@@ -17,7 +17,7 @@ font-family: 'Montserrat', sans-serif;
 
 .search{
   float: right;
-  margin: 63px 550px 0px 0px;
+  margin: 63px 150px 0px 0px;
   max-width: 486px;
   max-height: 64px;
 }
@@ -27,7 +27,7 @@ input {
   font-size: 22px;
   padding: 10px;
   display: block;
-  width: 480px;
+  width: 460px;
   height: 62px;
   border: 3px solid #000000;
   float: right;
@@ -38,8 +38,8 @@ input {
 .search_img{
   position: relative;
   width: 40px;
-  float: right;
-  margin: 14px 15px 0px 3px;
+  margin-left: 21vw;
+  margin-top: 0.5vw;
   opacity: 50%;
   z-index: 15;
 }
@@ -139,11 +139,11 @@ input {
 
 .text1{
   background: blue;
-  border: 4px solid black;
+  border: 3px solid black;
   line-height: 57px;
   width: 61vw;
   max-height: 16vh;
-  padding: 3vw 3vw;;
+  padding: 3vw 3vw;
   font-size: 43px;
   font-weight: 400;
   color: white;
@@ -154,7 +154,7 @@ input {
 .back_hand{
   /* position: absolute; */
   background: red;
-  border: 4px solid black;
+  border: 3px solid black;
   width: 16.5vw;
   height: 76.5vh;
   margin-top: -43.5vw;
@@ -174,7 +174,7 @@ input {
 .planets{
   position: absolute;
   /* overflow: hidden; */
-  padding-right: 7vw;
+  padding-right: 6vw;
   padding-left: 7vw;
   margin-top: 63vw;
   display: flex;
@@ -224,7 +224,7 @@ input {
 .part2{
   position: absolute;
   overflow: hidden;
-  padding-right: 7vw;
+  padding-right: 6vw;
   padding-left: 7vw;
   margin-top: 81vw;
 }
@@ -264,16 +264,16 @@ input {
 .button_buy{
   position: relative;
   margin-left: 39.5vw;
-  margin-top: -6vw;
+  margin-top: -5vw;
   z-index: 10;
 }
 
 .buy{
   width: 20vw;
   background: white;
-  border: 5px solid black;
+  border: 3px solid black;
   padding: 1vw 5vw 1vw 5vw;
-  font-size: 30px;
+  font-size: 21px;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
@@ -305,8 +305,8 @@ input {
   /* overflow: hidden; */
   display: flex;
   transform: rotate(90deg);
-  top: 38vw;
-  left: 62.7vw;
+  margin-top: -12.3vw;
+  margin-left: 55.7vw;
   width: 37vw;
   height: 0vw;
 }
@@ -398,26 +398,26 @@ input {
   margin-left: 18vw;
   color: white;
   font-size: 21px;
-  font-weight: 400;
+  font-weight: 405;
 }
 
 .menu_a{
-list-style: none;
-margin-left: 10vw;
-margin: 0vw 0vw 0vw 0vw ;
-width: 17vw;
-color: white;
-text-decoration: none;
+  list-style: none;
+  margin-left: 10vw;
+  margin: 0vw 0vw 0vw 0vw ;
+  width: 17vw;
+  color: white;
+  text-decoration: none;
 
 }
 
 .email_p{
-list-style: none;
-margin: 0vw 0vw 0vw 0vw ;
-width: 17vw;
-text-decoration: none;
-
+  list-style: none;
+  margin: 0vw 0vw 0vw 0vw ;
+  width: 17vw;
+  text-decoration: none;
 }
+
 
 .facebook{
   position: relative;
@@ -434,11 +434,237 @@ text-decoration: none;
 }
 
 
+@media (max-widht: 1440px) {
 
-.back{
-  position: absolute;
-  left: 0vw;
-  top: 0vw;
-  width: 100%;
-  opacity: 40%;
+  .search{
+    margin: 63px 107px 0px 0px;
+  }
+
+  input {
+    width: 393px;
+    height: 54px;
+  }
+
+  .search_img{
+    width: 40px;
+    margin-left: 24vw;
+    margin-top: 0.5vw;
+
+  }
+  .text1{
+    max-height: 16vh;
+    font-size: 32px;
+    padding: 3vw 3vw;
+  }
+
+  .back_hand{
+    width: 16.5vw;
+    height: 65.5vh;
+    margin-top: -45.4vw;
+    margin-left: 69.2vw;
+  }
+
+  .name{
+    font-size: 24px;
+    margin-top: -1.5vw;
+  }
+
+  .planets{
+    margin-top: 66vw;
+  }
+
+  .part2{
+    margin-top: 83vw;
+  }
+  .mood{
+    padding: 0vw 4vw 2vw 6vw;
+    font-size: 19px;
+    line-height: 4.5;
+    margin-left: 69.5vw;
+    margin-top: -33vw;
+  }
+
+  .color{
+    margin-top: -14.3vw;
+  }
+
+  .orange,
+  .violet,
+  .blue,
+  .red,
+  .green,
+  .yellow{
+    width: 2.3vw;
+    height: 3.5vh;
+    margin: 0vw 1.7vw 0vw 1.9vw;
+  }
+
+  .text3{
+    max-height: 16vh;
+    font-size: 32px;
+    padding: 3vw 3vw;
+  }
+
+
+  .square_left{
+    height: 250vh;
+  }
+
+  .buy{
+    font-size: 19px;
+  }
+
+
+  .footer{
+    margin-top: 162vw;
+    font-size: 19vw;
+
+  }
+
+  .footer_menu{
+    font-size: 19px;
+  }
+
+  .footer_email{
+    font-size: 19px;
+  }
+
+
+  .facebook{
+    position: relative;
+    width: 2.5vw;
+    left: 90.5vw;
+    top: -21.7vw;
+  }
+
+  .insta{
+    position: relative;
+    width: 2.5vw;
+    left: 83vw;
+    top: -17.5vw;
+  }
+
+  .header_link_1,
+  .header_link_2,
+  .header_link_3{
+    font-size: 19px;
+  }
+}
+
+
+@media (max-widht: 1366px) {
+
+  .search{
+    margin: 63px 107px 0px 0px;
+  }
+
+  input {
+    width: 382px;
+    height: 54px;
+  }
+
+  .search_img{
+    width: 40px;
+    margin-left: 24vw;
+    margin-top: 0.5vw;
+
+  }
+  .text1{
+    max-height: 16vh;
+    font-size: 32px;
+    padding: 3vw 3vw;
+  }
+
+  .back_hand{
+    width: 16.5vw;
+    height: 65.5vh;
+    margin-top: -45.4vw;
+    margin-left: 69.2vw;
+  }
+
+  .name{
+    font-size: 24px;
+    margin-top: -1.5vw;
+  }
+
+  .planets{
+    margin-top: 66vw;
+  }
+
+  .part2{
+    margin-top: 83vw;
+  }
+  .mood{
+    padding: 0vw 4vw 2vw 6vw;
+    font-size: 19px;
+    line-height: 4.5;
+    margin-left: 69.5vw;
+    margin-top: -33vw;
+  }
+
+  .color{
+    margin-top: -14.3vw;
+  }
+
+  .orange,
+  .violet,
+  .blue,
+  .red,
+  .green,
+  .yellow{
+    width: 2.3vw;
+    height: 3.5vh;
+    margin: 0vw 1.7vw 0vw 1.9vw;
+  }
+
+  .text3{
+    max-height: 16vh;
+    font-size: 32px;
+    padding: 3vw 3vw;
+  }
+
+
+  .square_left{
+    height: 250vh;
+  }
+
+  .buy{
+    font-size: 19px;
+  }
+
+
+  .footer{
+    margin-top: 162vw;
+    font-size: 19vw;
+
+  }
+
+  .footer_menu{
+    font-size: 19px;
+  }
+
+  .footer_email{
+    font-size: 19px;
+  }
+
+
+  .facebook{
+    position: relative;
+    width: 2.5vw;
+    left: 90.5vw;
+    top: -21.7vw;
+  }
+
+  .insta{
+    position: relative;
+    width: 2.5vw;
+    left: 83vw;
+    top: -17.5vw;
+  }
+
+  .header_link_1,
+  .header_link_2,
+  .header_link_3{
+    font-size: 19px;
+  }
 }
