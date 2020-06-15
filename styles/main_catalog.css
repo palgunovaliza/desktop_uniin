@@ -32,7 +32,7 @@ input {
   border: 3px solid #000000;
   float: right;
   /* margin: 30px 50px 0px 0px; */
-  z-index: 10;
+  z-index: 30;
 }
 
 .search_img{
@@ -41,7 +41,7 @@ input {
   margin-left: 21vw;
   margin-top: 0.5vw;
   opacity: 50%;
-  z-index: 15;
+  z-index: 35;
 }
 
 .logo{
@@ -121,6 +121,25 @@ input {
   margin-top: 14vw;
 }
 
+
+/* planet */
+.planet {
+  border: 3px solid black;
+  width: 25vw;
+  position: relative;
+  height: auto !important;
+}
+
+
+.planets_line1{
+  position: absolute;
+  display: flex;
+  /* overflow: hidden; */
+  padding-right: 7vw;
+  padding-left: 7vw;
+  margin-top: 14vw;
+}
+
 .planet1{
   width: 25vw;
   height: 50vh;
@@ -129,8 +148,15 @@ input {
 
 .planet_1{
   width: 25vw;
-  margin-top: -1.5vw;
+  margin-top: 2.5vw;
   margin-left: 0vw;
+}
+.planet .heart1 {
+  float: right;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .heart1{
@@ -138,6 +164,15 @@ input {
   width: 2.3vw;
   margin-top: 1vw;
   margin-right: 1vw;
+}
+
+.heart1 like-js{
+  cursor: pointer;
+  position: relative;
+  float: right;
+  width: 2.3vw;
+  top: 0vw;
+  right: 0vw;
 }
 
 h1{
@@ -150,8 +185,7 @@ h1{
   display: block;
   width: 12vw;
   border: 3px solid black;
-  margin-top: 2vw;
-  margin-left: 4.5vw;
+  margin: 3vw 4.5vw ;
   padding: 1vw 1.7vw;
   font-size: 21px;
   font-weight: 600;
@@ -175,7 +209,7 @@ h1{
 
 .planet_2{
   width: 14vw;
-  margin: 0vw 6vw 1.7vw 6vw;
+  margin: 4vw 5.5vw 1.7vw 6vw;
 }
 
 .planet3{
@@ -188,155 +222,7 @@ h1{
 
 .planet_3{
   width: 14vw;
-  margin: 0vw 6vw 1.7vw 6vw;
-}
-.planets_line1{
-  position: absolute;
-  display: flex;
-  /* overflow: hidden; */
-  padding-right: 7vw;
-  padding-left: 7vw;
-  margin-top: 14vw;
-}
-
-.planet1{
-  width: 25vw;
-  height: 50vh;
-  border: 3px solid black;
-}
-
-.planet_1{
-  width: 25vw;
-  margin-top: -1.5vw;
-  margin-left: 0vw;
-}
-
-.heart1{
-  float: right;
-  width: 2.3vw;
-  margin-top: 1vw;
-  margin-right: 1vw;
-}
-
-h1{
-  text-align: center;
-  font-size: 30px;
-  font-weight: 800;
-}
-
-.more{
-  display: block;
-  width: 12vw;
-  border: 3px solid black;
-  margin-top: 2vw;
-  margin-left: 4.5vw;
-  padding: 1vw 1.7vw;
-  font-size: 21px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-
-.planet2{
-  width: 25vw;
-  height: 50vh;
-  margin-left: 5vw;
-  margin-top: 0vw;
-  border: 3px solid black;
-}
-
-.planet_2{
-  width: 14vw;
-  margin: 0vw 6vw 1.7vw 6vw;
-}
-
-.planet3{
-  width: 25vw;
-  height: 50vh;
-  margin-left: 5vw;
-  margin-top: 0vw;
-  border: 3px solid black;
-}
-
-.planet_3{
-  width: 14vw;
-  margin: 0vw 6vw 1.7vw 6vw;
-}
-
-
-.planets_line1{
-  position: absolute;
-  display: flex;
-  /* overflow: hidden; */
-  padding-right: 7vw;
-  padding-left: 7vw;
-  margin-top: 14vw;
-}
-
-.planet1{
-  width: 25vw;
-  height: 50vh;
-  border: 3px solid black;
-}
-
-.planet_1{
-  width: 25vw;
-  margin-top: -1.5vw;
-  margin-left: 0vw;
-}
-
-.heart1{
-  float: right;
-  width: 2.3vw;
-  margin-top: 1vw;
-  margin-right: 1vw;
-}
-
-h1{
-  text-align: center;
-  font-size: 30px;
-  font-weight: 800;
-}
-
-.more{
-  display: block;
-  width: 12vw;
-  border: 3px solid black;
-  margin-top: 2vw;
-  margin-left: 4.5vw;
-  padding: 1vw 1.7vw;
-  font-size: 21px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-
-.planet2{
-  width: 25vw;
-  height: 50vh;
-  margin-left: 5vw;
-  margin-top: 0vw;
-  border: 3px solid black;
-}
-
-.planet_2{
-  width: 14vw;
-  margin: 0vw 6vw 1.7vw 6vw;
-}
-
-.planet3{
-  width: 25vw;
-  height: 50vh;
-  margin-left: 5vw;
-  margin-top: 0vw;
-  border: 3px solid black;
-}
-
-.planet_3{
-  width: 14vw;
-  margin: 0vw 6vw 1.7vw 6vw;
+  margin: 4vw 5.5vw 1.7vw 6vw;
 }
 
 .planets_line2{
@@ -345,7 +231,7 @@ h1{
   /* overflow: hidden; */
   padding-right: 7vw;
   padding-left: 7vw;
-  margin-top: 47.5vw;
+  margin-top: 50vw;
 }
 
 .planet4{
@@ -356,7 +242,8 @@ h1{
 
 .planet_4{
   width: 14vw;
-  margin: 0vw 6vw 1.7vw 6vw;
+  margin: 4vw 5.5vw 1.7vw 6vw;
+  /* margin-top: 90px !important; */
 }
 
 .planet5{
@@ -369,7 +256,8 @@ h1{
 
 .planet_5{
   width: 14vw;
-  margin: 0vw 6vw 1.7vw 6vw;
+  margin: 4vw 5.5vw 1.7vw 6vw;
+  /* margin-top: 90px !important; */
 }
 
 .planet6{
@@ -382,17 +270,18 @@ h1{
 
 .planet_6{
   width: 18.5vw;
-  margin: 0vw 6vw 1.7vw 3.5vw;
+  margin: 4vw 6vw 1.7vw 3.5vw;
+  /* margin-top: 90px !important; */
 }
 
 .footer{
   position: absolute;
-  overflow: hidden;
+  overflow-x: hidden;
   width: 100%;
   height: 12vw;
   background: black;
   margin-left: 0vw;
-  margin-top: 80vw;
+  margin-top: 87vw;
   /* text-decoration: none;
    */
 }
@@ -451,38 +340,134 @@ text-decoration: none;
   top: -2vw;
 }
 
+@media (min-width: 1440px) and (max-width:1919px) {
 
-/* .heart1{
-  float: right;
-  width: 2.3vw;
-  margin-top: 1vw;
-  margin-right: 1vw;
-} */
+  .square_left{
+    height: 120vh;
 
-/* h1{
-  text-align: center;
-  font-size: 30px;
-  font-weight: 800;
-} */
-/*
-.more{
-  display: block;
-  width: 12vw;
-  border: 3px solid black;
-  margin-top: 2vw;
-  margin-left: 4.5vw;
-  padding: 1vw 1.7vw;
-  font-size: 21px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-} */
+  }
 
-.back{
-  position: absolute;
-  left: 0vw;
-  top: 0vw;
-  width: 100%;
-  opacity: 40%;
+  .search{
+    margin: 63px 107px 0px 0px;
+  }
+
+  input {
+    width: 393px;
+    height: 54px;
+  }
+
+  .search_img{
+    width: 40px;
+    margin-left: 24vw;
+    margin-top: 0.5vw;
+  }
+
+  .header_link_1,
+  .header_link_2,
+  .header_link_3{
+    font-size: 19px;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  .more{
+    font-size: 19px;
+  }
+
+
+    .footer{
+      margin-top: 86vw;
+      font-size: 19vw;
+
+    }
+
+    .footer_menu{
+      font-size: 19px;
+    }
+
+    .footer_email{
+      font-size: 19px;
+    }
+
+
+    .facebook{
+      position: relative;
+      width: 2.5vw;
+      left: 90.5vw;
+      top: -20.7vw;
+    }
+
+    .insta{
+      position: relative;
+      width: 2.5vw;
+      left: 83vw;
+      top: -16.5vw;
+    }
+}
+
+@media (min-width: 1240px) and (max-width:1439px) {
+
+  .header_link_1,
+  .header_link_2,
+  .header_link_3{
+    font-size: 19px;
+  }
+
+  .search{
+    margin: 30px 90px 0px 0px;
+  }
+
+  input {
+    width: 335px;
+    height: 42px;
+  }
+
+  .search_img{
+    width: 28px;
+    margin-left: 24vw;
+    margin-top: 0.5vw;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  .more{
+    font-size: 19px;
+  }
+
+  .footer{
+    /* margin-top: 157vw; */
+    font-size: 19vw;
+
+  }
+
+  .footer_menu{
+    font-size: 19px;
+  }
+
+  .footer_email{
+    font-size: 19px;
+  }
+
+
+  .facebook{
+    position: relative;
+    width: 2.5vw;
+    left: 90.5vw;
+    top: -22.5vw;
+  }
+
+  .insta{
+    position: relative;
+    width: 2.5vw;
+    left: 83vw;
+    top: -18vw;
+  }
+
+
+
+
 }

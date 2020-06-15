@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 body{
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .square_left{
@@ -369,7 +369,7 @@ input {
 
 .footer{
   position: absolute;
-  overflow: hidden;
+  overflow-x: hidden;
   width: 100%;
   height: 12vw;
   background: black;
@@ -434,7 +434,7 @@ input {
 }
 
 
-@media (max-widht: 1440px) {
+@media (min-width: 1440px) and (max-width:1919px) {
 
   .search{
     margin: 63px 107px 0px 0px;
@@ -552,52 +552,58 @@ input {
 }
 
 
-@media (max-widht: 1366px) {
+@media (min-width: 1240px) and (max-width:1439px) {
 
   .search{
-    margin: 63px 107px 0px 0px;
+    margin: 30px 90px 0px 0px;
   }
 
   input {
-    width: 382px;
-    height: 54px;
+    width: 335px;
+    height: 42px;
   }
 
   .search_img{
-    width: 40px;
+    width: 28px;
     margin-left: 24vw;
     margin-top: 0.5vw;
-
   }
+
   .text1{
-    max-height: 16vh;
-    font-size: 32px;
-    padding: 3vw 3vw;
+    max-height: 23vh;
+    font-size: 31px;
+    line-height: 50px;
+    padding: 2vw 3vw;
+  }
+
+  .text2{
+    padding: 4.5vw 3vw;;
+    font-size: 31px;
   }
 
   .back_hand{
     width: 16.5vw;
-    height: 65.5vh;
-    margin-top: -45.4vw;
+    height: 76.5vh;
+    margin-top: -43.5vw;
     margin-left: 69.2vw;
-  }
-
-  .name{
-    font-size: 24px;
-    margin-top: -1.5vw;
   }
 
   .planets{
     margin-top: 66vw;
   }
+  .name{
+    font-size: 22px;
+    margin-top: -1.5vw;
+  }
 
   .part2{
     margin-top: 83vw;
   }
+
   .mood{
     padding: 0vw 4vw 2vw 6vw;
     font-size: 19px;
-    line-height: 4.5;
+    line-height: 4.3;
     margin-left: 69.5vw;
     margin-top: -33vw;
   }
@@ -613,19 +619,15 @@ input {
   .green,
   .yellow{
     width: 2.3vw;
-    height: 3.5vh;
+    height: 4vh;
     margin: 0vw 1.7vw 0vw 1.9vw;
   }
 
   .text3{
-    max-height: 16vh;
-    font-size: 32px;
-    padding: 3vw 3vw;
-  }
-
-
-  .square_left{
-    height: 250vh;
+    max-height: 18vh;
+    font-size: 31px;
+    line-height: 50px;
+    padding: 2vw 3vw 3.5vw;
   }
 
   .buy{
@@ -634,7 +636,7 @@ input {
 
 
   .footer{
-    margin-top: 162vw;
+    margin-top: 157vw;
     font-size: 19vw;
 
   }
@@ -652,14 +654,14 @@ input {
     position: relative;
     width: 2.5vw;
     left: 90.5vw;
-    top: -21.7vw;
+    top: -22.5vw;
   }
 
   .insta{
     position: relative;
     width: 2.5vw;
     left: 83vw;
-    top: -17.5vw;
+    top: -18vw;
   }
 
   .header_link_1,
@@ -667,4 +669,5 @@ input {
   .header_link_3{
     font-size: 19px;
   }
+
 }
