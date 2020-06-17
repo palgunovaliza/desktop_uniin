@@ -23,3 +23,23 @@ for (let i = 0; i !== like.length; i++) {
         }
     }
 }
+
+
+
+function muchRandomPlanet(){
+return Math.floor(Math.random() * 5)+1;
+}
+
+
+const randomPlanet = function() {
+  const sendData = document.getElementById('send')
+  const planetImg = document.getElementById('random-planet-img')
+  sendData.onclick = (e) => {
+    e.preventDefault()
+    planetImg.setAttribute('class', `random-position-planet${muchRandomPlanet()}`)
+    planetImg.setAttribute('src', `img/planet${muchRandomPlanet()}.1.svg`)
+    console.log(muchRandomPlanet())
+  }
+
+
+ }

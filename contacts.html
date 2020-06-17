@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>web uniin</title>
     <link rel="stylesheet" href="styles/main_contacts.css">
+    <script  src="anime-master/lib/anime.min.js">
+    </script>
   </head>
   <body>
     <div class="square_left">  </div>
@@ -29,16 +31,18 @@
       </nav>
     </header>
     <div class="search">
-        <input class="search" type="search" required>
+        <input type="search" required>
         <img class="search_img"src="img/search.svg" alt="">
     </div>
     <div class="info">
       <h1>Мы всегда на связи</h1>
       <h2>имя <br>e-mail сообщение</h2>
-      <input class="name" type="text" name="" value=""><br>
-      <input class="email" type="text" name="" value=""><br>
-      <input class="text" type="text" name="" value="">
-      <a class="send" href="">отправить</a>
+      <div class="letter">
+        <input class="name" type="text" name="" value=""><br>
+        <input class="email" type="text" name="" value=""><br>
+        <input class="text" type="text" name="" value="">
+      </div>
+      <a id="send" class="send" href="">отправить</a>
     </div>
     <div class="footer">
       <div class="footer_menu">
@@ -49,13 +53,12 @@
       <div class="footer_email">
         <p class="email_p">uiin@gmail.com</p>
         <p class="email_p">8 (926) 913 33 98</p>
-        <p class="email_p">г. Москва <br>ул. Малая пионерская 12</p>
+        <p class="email_p_address">г. Москва <br>ул. Малая пионерская 12</p>
       </div>
       <img class="facebook" src="img/facebook.svg" alt="">
       <img class="insta" src="img/insta.svg" alt="">
     </div>
-
-    <!-- <img class="back"src="img/13.png" alt=""> -->
+    <img id="random-planet-img" class="random-position-planet-none" src="img/planet1.1.svg" alt="">
     <script src="js/main.js"></script>
 
   </body>

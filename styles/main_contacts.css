@@ -10,7 +10,7 @@ font-family: 'Montserrat', sans-serif;
   overflow: hidden;
   background:  #FFD801;
   width: 10vw;
-  height: 115vh;
+  /* height: 130vh; */
   margin: 0vw;
   z-index: 1vw;
 }
@@ -19,17 +19,16 @@ font-family: 'Montserrat', sans-serif;
   float: right;
   margin: 63px 150px 0px 0px;
   max-width: 486px;
-  max-height: 64px;
+  max-height: 1.5vw;
 }
 
-input.search {
+input {
   position: absolute;
   font-size: 22px;
   padding: 10px;
   display: block;
   width: 460px;
-  height: 62px;
-  margin-top: 0vw;
+  height: 55px;
   border: 3px solid #000000;
   float: right;
   /* margin: 30px 50px 0px 0px; */
@@ -40,7 +39,7 @@ input.search {
   position: relative;
   width: 40px;
   margin-left: 21vw;
-  margin-top: 0.5vw;
+  margin-top: 0.3vw;
   opacity: 50%;
   z-index: 15;
 }
@@ -72,7 +71,7 @@ input.search {
   text-decoration: none;
   width: 20vw;
   background: white;
-  /* border: 3px solid black; */
+  border: 3px solid transparent;
   padding: 1vw 3vw 1vw 3vw;
 }
 
@@ -88,7 +87,7 @@ input.search {
   text-decoration: none;
   width: 20vw;
   background: white;
-  /* border: 3px solid black; */
+  border: 3px solid transparent;
   padding: 1vw 3vw 1vw 3vw;
 }
 
@@ -122,12 +121,12 @@ input.search {
   height: 26.5vw;
   /* padding-right: 34.5vw; */
   margin-left: 34.5vw;
-  margin-top: 17.5vw;
+  margin-top: 18.5vw;
 }
 
 h1{
   font-size: 43px;
-  font-weight: 400;
+  font-weight: 600;
   margin-top: -4vw;
   text-align: center;
 }
@@ -135,7 +134,7 @@ h1{
 h2{
   width: 6.5vw;
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: left;
   line-height: 6.2;
   color: white;
@@ -143,53 +142,45 @@ h2{
   margin-top: 1vw;
 }
 
-input.name {
+.letter{
   position: absolute;
-  font-size: 22px;
-  padding: 10px;
-  display: block;
-  width: 549px;
-  height: 25px;
-  margin-top: -16vw;
+  font-size: 21px;
+  width: 28.5vw;
+  height: 21vw;
   margin-left: 1.5vw;
-  border: 3px solid #000000;
+  margin-top: -15.5vw;
+}
+
+input.name,
+input.email,
+input.text {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 1.5vw;
+  margin: 0vw 0vw 4vw 0vw;
   float: left;
   z-index: 10;
+}
+
+input.name {
+  margin-top: 0vw;
 }
 
 input.email {
-  position: absolute;
-  font-size: 22px;
-  padding: 10px;
-  display: block;
-  width: 549px;
-  height: 25px;
-  margin-top: -9.9vw;
-  margin-left: 1.5vw;
-  border: 3px solid #000000;
-  float: left;
-  z-index: 10;
+  margin-top: 0vw;
 }
 
 input.text {
-  position: absolute;
-  font-size: 22px;
-  padding: 10px;
-  display: block;
-  width: 549px;
-  height: 120px;
-  margin-top: -4vw;
-  margin-left: 1.5vw;
-  border: 3px solid #000000;
-  float: left;
-  z-index: 10;
+  height: 6vw;
+  margin-top: 0vw;
 }
 
 .send{
   display: block;
   width: 12vw;
   border: 3px solid black;
-  margin-top: 7.5vw;
+  margin-top: 10.5vw;
   margin-left: 9vw;
   padding: 1vw 1.7vw;
   font-size: 21px;
@@ -199,10 +190,10 @@ input.text {
   color: black;
 }
 
-.send:hover{
+/* .send:hover{
   background-color: black;
   color: white;
-}
+} */
 
 
 
@@ -210,7 +201,7 @@ input.text {
   position: absolute;
   overflow: hidden;
   width: 100%;
-  height: 12vw;
+  height: 13vw;
   background: black;
   margin-left: 0vw;
   margin-top: 54vw;
@@ -258,6 +249,10 @@ input.text {
 
 }
 
+.email_p_address{
+  width: 20vw;
+}
+
 .facebook{
   position: relative;
   width: 2.5vw;
@@ -271,3 +266,263 @@ input.text {
   left: 87.7vw;
   top: -2vw;
 }
+.random-position-planet-none{
+  display: none;
+}
+
+.random-position-planet1{
+  position: absolute;
+  width: 15vw;
+  margin-top: 10vw;
+  margin-left: 10vw;
+  z-index: 10;
+}
+
+.random-position-planet2{
+  position: absolute;
+  width: 11vw;
+  margin-top: 38vw;
+  margin-left: 62vw;
+  z-index: 10;
+}
+
+.random-position-planet3{
+  position: absolute;
+  width: 13vw;
+  margin-top: 2vw;
+  margin-left: 55vw;
+  z-index: 99;
+}
+
+.random-position-planet4{
+  position: absolute;
+  width: 9vw;
+  margin-top: 16vw;
+  margin-left: 81vw;
+  z-index: 10;
+}
+
+.random-position-planet5{
+  position: absolute;
+  width: 13vw;
+  margin-top: 30vw;
+  margin-left: 30vw;
+  z-index: 99;
+}
+
+.random-position-planet6{
+  position: absolute;
+  width: 20vw;
+  margin-top: 36vw;
+  margin-left: 3vw;
+  z-index: 99;
+}
+
+@media (min-width: 1440px) and (max-width:1919px) {
+
+    .search{
+      margin: 40px 110px 0px 0px;
+    }
+
+    input {
+      width: 380px;
+      height: 50px;
+      font-size: 19px;
+    }
+
+    .search_img{
+      width: 32px;
+      margin-left: 23.5vw;
+      margin-top: 0.5vw;
+    }
+
+    .header_link_1,
+    .header_link_2,
+    .header_link_3{
+      font-size: 19px;
+    }
+
+    h1{
+      font-size: 32px;
+    }
+
+
+    h2{
+      width: 6.5vw;
+      font-size: 19px;
+      font-weight: 400;
+      text-align: left;
+      line-height: 6.2;
+      color: white;
+      margin-left: 2vw;
+      margin-top: 1vw;
+    }
+
+    .send{
+      font-size: 19px;
+    }
+
+    .info{
+      position: absolute;
+      background: blue;
+      border: 3px solid black;
+      width: 33vw;
+      height: 29vw;
+      /* padding-right: 34.5vw; */
+      margin-left: 34.5vw;
+    }
+
+    h1{
+      font-size: 32px;
+    }
+
+    h2{
+      width: 6.5vw;
+      font-size: 19px;
+      line-height: 5.8;
+      margin-top: 0.5vw;
+    }
+
+    .letter{
+      position: absolute;
+      font-size: 21px;
+      width: 28vw;
+      height: 21vw;
+      margin-left: 1.5vw;
+      margin-top: -17.8vw;
+    }
+
+
+    input.name,
+    input.email,
+    input.text {
+      margin: 0vw 0vw 4.5vw 0vw;
+    }
+
+
+     .footer{
+      margin-top: 60vw;
+      font-size: 19vw;
+
+    }
+
+    .footer_menu{
+      font-size: 19px;
+    }
+
+    .footer_email{
+      font-size: 19px;
+    }
+
+
+    .facebook{
+      position: relative;
+      width: 2.5vw;
+      left: 90.5vw;
+      top: -20.3vw;
+    }
+
+    .insta{
+      position: relative;
+      width: 2.5vw;
+      left: 83vw;
+      top: -16vw;
+    }
+
+}
+
+
+
+@media (min-width: 1240px) and (max-width:1439px) {
+
+  .search{
+    margin: 30px 100px 0px 0px;
+  }
+
+  input {
+    width: 335px;
+    height: 42px;
+    font-size: 19px;
+  }
+
+  .search_img{
+    width: 28px;
+    margin-left: 22vw;
+    margin-top: 0.5vw;
+  }
+
+  .header_link_1,
+  .header_link_2,
+  .header_link_3{
+    font-size: 19px;
+  }
+
+
+  .info{
+    position: absolute;
+    background: blue;
+    border: 3px solid black;
+    width: 33vw;
+    height: 31vw;
+    /* padding-right: 34.5vw; */
+    margin-left: 34.5vw;
+  }
+
+  h1{
+    font-size: 32px;
+  }
+
+  h2{
+    width: 6.5vw;
+    font-size: 19px;
+    line-height: 5.8;
+    margin-top: 0.5vw;
+  }
+
+  .letter{
+    position: absolute;
+    font-size: 21px;
+    width: 28vw;
+    height: 21vw;
+    margin-left: 1.5vw;
+    margin-top: -18.3vw;
+  }
+
+  .send{
+    font-size: 19px;
+    margin-top: 11vw;
+  }
+
+  input.name,
+  input.email,
+  input.text {
+    margin: 0vw 0vw 4.5vw 0vw;
+  }
+
+  .footer{
+    margin-top: 61vw;
+    font-size: 19vw;
+
+  }
+
+  .footer_menu{
+    font-size: 19px;
+  }
+
+  .footer_email{
+    font-size: 19px;
+  }
+
+  .facebook{
+    position: relative;
+    width: 2.5vw;
+    left: 90.5vw;
+    top: -20.5vw;
+  }
+
+  .insta{
+    position: relative;
+    width: 2.5vw;
+    left: 83vw;
+    top: -16vw;
+  }

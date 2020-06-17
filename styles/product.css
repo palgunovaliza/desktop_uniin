@@ -10,7 +10,7 @@ font-family: 'Montserrat', sans-serif;
   overflow: hidden;
   background:  #FFD801;
   width: 10vw;
-  height: 130vh;
+  /* height: 130vh; */
   margin: 0vw;
   z-index: 1vw;
 }
@@ -22,13 +22,14 @@ font-family: 'Montserrat', sans-serif;
   max-height: 64px;
 }
 
+
 input {
   position: absolute;
   font-size: 22px;
   padding: 10px;
   display: block;
   width: 460px;
-  height: 62px;
+  height: 55px;
   border: 3px solid #000000;
   float: right;
   /* margin: 30px 50px 0px 0px; */
@@ -39,7 +40,7 @@ input {
   position: relative;
   width: 40px;
   margin-left: 21vw;
-  margin-top: 0.5vw;
+  margin-top: 0.3vw;
   opacity: 50%;
   z-index: 15;
 }
@@ -71,7 +72,7 @@ input {
   text-decoration: none;
   width: 20vw;
   background: white;
-  /* border: 3px solid black; */
+    border: 3px solid transparent;
   padding: 1vw 3vw 1vw 3vw;
 }
 
@@ -87,7 +88,7 @@ input {
   text-decoration: none;
   width: 20vw;
   background: white;
-  /* border: 3px solid black; */
+  border: 3px solid transparent;
   padding: 1vw 3vw 1vw 3vw;
 }
 
@@ -103,7 +104,7 @@ input {
   text-decoration: none;
   width: 20vw;
   background: white;
-  border: 3px solid black;
+  border: 3px solid transparent;
   padding: 1vw 3vw 1vw 3vw;
 }
 
@@ -122,9 +123,9 @@ input {
 }
 
 .product1{
-  width: 57.5vw;
+  width: 59vw;
   height: 51vh;
-  margin-left: 15vw;
+  margin-left: 14vw;
   border: 3px solid black;
 }
 
@@ -139,36 +140,86 @@ input {
 
 
 .planet{
-  width: 31vw;
-  margin: 4vw 0vw 0vw 1vw;
+  width: 33vw;
+  margin: 3vw 0vw 0vw 0vw;
 }
 
+
 h1{
-  float: right;
   font-size: 43px;
   font-weight: 800;
-  margin-top: -20.5vw;
-  margin-right: 18.5vw;
+  margin-top: 0vw;
+  margin-left:  0vw;
+  padding: 0vw 0vw 1vw 0vw;
 }
 
 .info{
-  float: right;
+  margin-left: 33.5vw;
+  margin-top: -21vw;
+  width: 29vw;
+  height: 16vw;
+}
+
+.inform{
   font-size: 21px;
   font-weight: 600;
   text-align: left;
   line-height: 2.5;
   color: black;
-  margin-right: 3.5vw;
-  margin-top: -18vw;
+  margin-left: 0vw;
+  margin-top: 0vw;
+  padding: 0vw 0vw 1vw 0vw;
 }
+
+.color{
+  display: flex;
+  margin-top: -3.5vw;
+  margin-left: 3vw;
+  width: 20vw;
+  height: 0vw;
+}
+
+.blue,
+.red,
+.yellow{
+  border-radius: 50%;
+  width: 2.3vw;
+  height: 4vh;
+  margin: 0vw 0vw 0vw 1.3vw;
+}
+
+
+.blue{
+  background:blue;
+
+}
+
+.red{
+  background: red;
+}
+
+.yellow{
+  background: #FFF502;
+}
+
+
+
+h2{
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 4vw;
+  margin-left: 0vw;
+  padding: 0vw 0vw 2vw 0vw;
+}
+
+
 
 .buy{
   display: block;
-  float: right;
   width: 12vw;
   border: 3px solid black;
-  margin-top: -5vw;
-  margin-right: 9.5vw;
+  margin-top: 0vw;
+  margin-right: 8.5vw;
   padding: 1vw 1.7vw;
   font-size: 21px;
   font-weight: 600;
@@ -183,29 +234,12 @@ h1{
 }
 
 
-h2{
-  float: right;
-  font-size: 30px;
-  font-weight: 800;
-  margin-top: -8.5vw;
-  margin-right: 18.5vw;
-}
-
-
-.back{
-  position: absolute;
-  left: 0vw;
-  top: 0vw;
-  width: 100%;
-  opacity: 40%;
-}
-
 .planets{
   position: absolute;
   /* overflow: hidden; */
   padding-right: 6vw;
-  padding-left: 0vw;
-  margin-top: 8vw;
+  padding-left: 7vw;
+  margin-top: 51vw;
   display: flex;
 }
 
@@ -253,7 +287,7 @@ h2{
   position: absolute;
   overflow: hidden;
   width: 100%;
-  height: 12vw;
+  height: 13vw;
   background: black;
   margin-left: 0vw;
   margin-top: 70vw;
@@ -301,6 +335,10 @@ h2{
 
 }
 
+.email_p_address{
+  width: 20vw;
+}
+
 .facebook{
   position: relative;
   width: 2.5vw;
@@ -313,4 +351,264 @@ h2{
   width: 2.5vw;
   left: 87.7vw;
   top: -2vw;
+}
+
+
+@media (min-width: 1440px) and (max-width:1919px) {
+
+  .search{
+    margin: 40px 110px 0px 0px;
+  }
+
+  input {
+    width: 380px;
+    height: 50px;
+  }
+
+  .search_img{
+    width: 32px;
+    margin-left: 23.5vw;
+    margin-top: 0.5vw;
+  }
+
+  .header_link_1,
+  .header_link_2,
+  .header_link_3{
+    font-size: 19px;
+  }
+
+  .product1{
+    width: 63.5vw;
+    height: 43vh;
+    margin-left: 13vw;
+    border: 3px solid black;
+  }
+
+  /* .planet{
+    width: 27vw;
+  } */
+
+  .info{
+    margin-right: 3.5vw;
+    margin-top: -18vw;
+  }
+
+  h1{
+    font-size: 24px;
+    padding: 0vw 0vw 0.8vw 0vw;
+  }
+
+  .info{
+    margin-left: 33.5vw;
+    margin-top: -21vw;
+    width: 29vw;
+    height: 16vw;
+  }
+
+  .inform{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 2.2;
+    color: black;
+    margin-left: 0vw;
+    margin-top: 0vw;
+    padding: 0vw 0vw 0.8vw 0vw;
+  }
+
+  .color{
+    display: flex;
+    margin-top: -3.5vw;
+    margin-left: 3vw;
+    width: 20vw;
+    height: 0vw;
+  }
+
+  .blue,
+  .red,
+  .yellow{
+    border-radius: 50%;
+    width: 2.3vw;
+    height: 4vh;
+    margin: 0vw 0vw 0vw 1.3vw;
+  }
+
+
+  .blue{
+    background:blue;
+
+  }
+
+  .red{
+    background: red;
+  }
+
+  .yellow{
+    background: #FFF502;
+  }
+
+
+
+  h2{
+    font-size: 24px;
+    padding: 0vw 0vw 2vw 0vw;
+  }
+
+  .blue,
+  .red,
+  .yellow{
+    border-radius: 50%;
+    width: 2.1vw;
+    height: 3vh;
+    margin: 0vw 0vw 0vw 1.2vw;
+  }
+
+
+
+  .buy{
+    font-size: 19px;
+  }
+
+
+  .name{
+    font-size: 24px;
+    margin-top: -1.5vw;
+  }
+
+  .planets{
+    margin-top: 52vw;
+  }
+
+
+
+  .footer{
+    margin-top: 71vw;
+    font-size: 19vw;
+
+  }
+
+  .footer_menu{
+    font-size: 19px;
+  }
+
+  .footer_email{
+    font-size: 19px;
+  }
+
+
+  .facebook{
+    position: relative;
+    width: 2.5vw;
+    left: 90.5vw;
+    top: -20.3vw;
+  }
+
+  .insta{
+    position: relative;
+    width: 2.5vw;
+    left: 83vw;
+    top: -16vw;
+  }
+}
+
+@media (min-width: 1240px) and (max-width:1439px) {
+
+  .search{
+    margin: 30px 100px 0px 0px;
+  }
+
+  input {
+    width: 335px;
+    height: 42px;
+  }
+
+  .search_img{
+    width: 28px;
+    margin-left: 22vw;
+    margin-top: 0.5vw;
+  }
+
+  .header_link_1,
+  .header_link_2,
+  .header_link_3{
+    font-size: 19px;
+  }
+
+  .product1{
+    width: 63.5vw;
+    height: 53vh;
+    margin-left: 13vw;
+    border: 3px solid black;
+  }
+
+  h1{
+    font-size: 22px;
+    padding: 0vw 0vw 0.8vw 0vw;
+  }
+
+  .info{
+    margin-left: 33.5vw;
+    margin-top: -21vw;
+    width: 29vw;
+    height: 16vw;
+  }
+
+  .inform{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 2.2;
+    color: black;
+    margin-left: 0vw;
+    margin-top: 0vw;
+    padding: 0vw 0vw 0.8vw 0vw;
+  }
+
+  .color{
+    margin-left: 4vw;
+
+  }
+
+  h2{
+    font-size: 22px;
+    padding: 0vw 0vw 2vw 0vw;
+  }
+
+  .planets{
+    margin-top: 52vw;
+  }
+  .name{
+    font-size: 22px;
+    margin-top: -1.5vw;
+  }
+
+
+  .footer{
+    margin-top: 71vw;
+    font-size: 19vw;
+
+  }
+
+  .footer_menu{
+    font-size: 19px;
+  }
+
+  .footer_email{
+    font-size: 19px;
+  }
+
+
+  .facebook{
+    position: relative;
+    width: 2.5vw;
+    left: 90.5vw;
+    top: -20.5vw;
+  }
+
+  .insta{
+    position: relative;
+    width: 2.5vw;
+    left: 83vw;
+    top: -16vw;
+  }
 }
