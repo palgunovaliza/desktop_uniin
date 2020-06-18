@@ -783,6 +783,7 @@ input {
   .header.active{
     display: block;
     margin-left: 0;
+    z-index: 50;
   }
 
   /* .header.active.line_1{
@@ -866,19 +867,20 @@ input {
 
    .text1{
      border: 2px solid black;
-     line-height: 14px;
+     line-height: 16px;
      width: 69vw;
-     max-height: 18vh;
-     padding: 3vw 3vw;
+     max-height: 38vh;
+     padding: 4vw 3vw 4vw;
      font-size: 15px;
      font-weight: 400;
-     margin: -85vw 0vw 0vw 2vw;
+     margin: -92vw 0vw 0vw 2vw;
    }
 
    .img2{
      width: 42vw;
      margin-left: 2vw;
-     margin-top: 168vw;
+     margin-top: 176vw;
+     z-index: -2;
    }
 
    .hand{
@@ -911,9 +913,9 @@ input {
      /* overflow: hidden; */
      padding-right: 6vw;
      padding-left: 7vw;
-     margin-top: 191vw;
+     margin-top: 198vw;
      display: flex;
-     z-index: 50;
+     z-index: 40;
    }
 
    .planet1{
@@ -985,7 +987,7 @@ input {
      overflow: hidden;
      padding-right: 6vw;
      padding-left: 7vw;
-     margin-top: 270vw;
+     margin-top: 276vw;
    }
 
    .text2{
@@ -995,7 +997,7 @@ input {
      max-height: 0vh;
      padding: 6.5vw 2vw;
      font-size: 13px;
-     font-weight: 400;
+     font-weight: 600;
      margin: 0vw 0vw 0vw 3vw;
    }
 
@@ -1122,10 +1124,10 @@ input {
 
   .text3{
     border: 2px solid black;
-    line-height: 14px;
+    line-height: 16px;
     width: 69vw;
-    max-height: 18vh;
-    padding: 3vw 3vw;
+    max-height: 38vh;
+    padding: 4vw 3vw 9vw;
     font-size: 15px;
     font-weight: 400;
     margin: 13vw 0vw 0vw 3vw;
@@ -1136,7 +1138,7 @@ input {
      width: 100%;
      height: 42vw;
      margin-left: 0vw;
-     margin-top: 419vw;
+     margin-top: 432vw;
    }
 
    .footer_menu{
