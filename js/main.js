@@ -43,3 +43,18 @@ const randomPlanet = function() {
 
 
  }
+randomPlanet();
+
+// $(document).ready(function(){
+//   $('.header_burger').click(function(event){
+//     $('.header_burger,.header_menu'),toggleClass('active');
+//   })
+// })
+
+
+$('.img_menu').on('click', function(e) {
+
+  e.preventDefault();
+  $('#menuburger').toggleClass("active");
+  $('.header').toggleClass("active");
+});

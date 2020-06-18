@@ -10,7 +10,7 @@ font-family: 'Montserrat', sans-serif;
   overflow: hidden;
   background:  #FFD801;
   width: 10vw;
-  /* height: 163vh; */
+  /* height: 130vh; */
   margin: 0vw;
   z-index: 1vw;
 }
@@ -19,9 +19,8 @@ font-family: 'Montserrat', sans-serif;
   float: right;
   margin: 63px 150px 0px 0px;
   max-width: 486px;
-  max-height: 64px;
+  max-height: 1.5vw;
 }
-
 
 input {
   position: absolute;
@@ -33,7 +32,7 @@ input {
   border: 3px solid #000000;
   float: right;
   /* margin: 30px 50px 0px 0px; */
-  z-index: 10;
+  z-index: 5;
 }
 
 .search_img{
@@ -42,7 +41,7 @@ input {
   margin-left: 21vw;
   margin-top: 0.3vw;
   opacity: 50%;
-  z-index: 15;
+  z-index: 10;
 }
 
 .logo{
@@ -51,18 +50,31 @@ input {
   margin: 1vw 0vw 0vw 1vw;
 }
 
+.img_menu{
+  position: fixed;
+  display: none;
+}
+
+/* .img_menu_close{
+  position: fixed;
+  display: none;
+} */
+
+.header_burger{
+  display: none;
+}
+
 .header_list{
   position: absolute;
   /* overflow: hidden; */
   display: flex;
   top: 7.7vw;
   left: 2vw;
-
 }
 .header_list,li{
   list-style: none;
   margin: 0vw 0vw 0vw 6vw;
-  z-index: 20;
+  z-index: 5;
 }
 
 .header_link_1{
@@ -104,7 +116,7 @@ input {
   text-decoration: none;
   width: 20vw;
   background: white;
-  border: 3px solid transparent;
+  border: 3px solid black;
   padding: 1vw 3vw 1vw 3vw;
 }
 
@@ -112,16 +124,6 @@ input {
   background-color: black;
   color: white;
 }
-
-.planets_line1{
-  position: absolute;
-  display: flex;
-  /* overflow: hidden; */
-  padding-right: 7vw;
-  padding-left: 7vw;
-  margin-top: 14vw;
-}
-
 
 /* planet */
 .planet {
@@ -471,6 +473,297 @@ h1{
     left: 83vw;
     top: -16vw;
   }
+}
 
+@media (min-width: 320px) and (max-width: 768px){
+
+  .search{
+    display: none;
+  }
+
+  input {
+    font-size: 18px;
+    display: none;
+  }
+
+  .search_img{
+    display: none;
+  }
+
+  .header.active{
+    display: block;
+    margin-left: 0;
+  }
+
+  .img_menu{
+    position: fixed;
+    float: right;
+    display: block;
+    margin-top: 3vw;
+    margin-left: 88vw;
+    z-index: 60;
+  }
+
+  .line_1,
+  .line_2,
+  .line_3{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-top: 1.5vw;
+    background: black;
+  }
+
+
+  .header{
+    position: fixed;
+    margin: 0vw 0vw 0vw 0vw;
+    top: 0px;
+    float: left;
+    width: 100%;
+    height: 95vw;
+    background:  #FFD801;
+    border: 2px solid black;
+    z-index: 20;
+    justify-content: center;
+
+  }
+
+  .header{
+   display: none;
+  }
+
+  .header.active{
+    display: block;
+    margin-left: 0;
+  }
+
+  /* .header.active.line_1{
+    transform: rotate(45deg);
+    height: 15px;
+
+      } */
+
+  .header_burger{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 50px;
+    z-index: 99;
+  }
+
+  .header_list{
+    position: relative;
+    display: block;
+    top: 7.7vw;
+    left: 2vw;
+    z-index: 99;
+
+  }
+
+  .header_list, li{
+    margin: 0vw 0vw 16vw 3vw;
+
+  }
+  .header_link_1,
+  .header_link_2,
+  .header_link_3{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    width: 20vw;
+    background: white;
+    border: 2px solid black;
+    padding: 1vw 3vw 1vw 3vw;
+   }
+
+  .header_link_1{
+    padding: 4vw 31vw 4vw 31vw;
+    margin: 0vw 0vw 2vw 0vw;
+   }
+
+  .header_link_2{
+    padding: 4vw 31.5vw 4vw 31.5vw;
+   }
+
+  .header_link_3{
+    padding: 4vw 29.5vw 4vw 29.5vw;
+   }
+
+  .square_left{
+    width: 15vw;
+   }
+
+  .logo{
+    width: 4vw;
+   }
+
+  .planets_line1{
+    position: absolute;
+    display: block;
+    /* overflow: hidden; */
+    /* padding-right: 6vw; */
+    padding-left: 8vw;
+    margin-top: 20vw;
+   }
+
+  .planet1{
+    width: 75vw;
+    height: 73vh;
+    border: 2px solid black;
+    margin: 0vw 0vw 10vw 3vw;
+   }
+
+  .planet_1{
+    width: 76vw;
+    margin-top: 5.5vw;
+    margin-left: 0vw;
+   }
+
+  .planet .heart1 {
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+   }
+
+  .heart1{
+    float: right;
+    width: 7vw;
+    padding: 1.5vw;
+   }
+
+  .heart1 like-js{
+    cursor: pointer;
+    position: relative;
+    float: right;
+    width: 7vw;
+    padding: 1.5vw;
+   }
+
+  h1{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+
+  .more{
+    display: block;
+    width: 34vw;
+    border: 2px solid black;
+    margin: 6vw 0vw 8vw 12vw;
+    padding: 3vw 10vw;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .more:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .planet2{
+    width: 75vw;
+    height: 73vh;
+    border: 2px solid black;
+    margin: 0vw 0vw 10vw 3vw;
+  }
+
+  .planet3{
+    width: 75vw;
+    height: 73vh;
+    border: 2px solid black;
+    margin: 0vw 0vw 10vw 3vw;
+  }
+
+  .planets_line2{
+    position: absolute;
+    display: block;
+    /* overflow: hidden; */
+    padding-right: 6vw;
+    padding-left: 8vw;
+    margin-top: 311vw;
+   }
+
+  .planet4{
+    width: 75vw;
+    height: 73vh;
+    border: 2px solid black;
+    margin: 0vw 0vw 10vw 3vw;
+  }
+
+  .planet_2,
+  .planet_3,
+  .planet_4,
+  .planet_5{
+    width: 44vw;
+    margin: 11vw 5.5vw 4.7vw 14.5vw;
+  }
+
+  .planet5{
+    width: 75vw;
+    height: 73vh;
+    border: 2px solid black;
+    margin: 0vw 0vw 10vw 3vw;
+  }
+
+  .planet6{
+    width: 75vw;
+    height: 73vh;
+    border: 2px solid black;
+    margin: 0vw 0vw 10vw 3vw;
+  }
+
+  .planet_6{
+    width: 60vw;
+    margin: 11vw 5.5vw 4.7vw 6.5vw;
+  }
+
+  .footer{
+    width: 100%;
+    height: 42vw;
+    margin-left: 0vw;
+    margin-top: 617vw;
+  }
+
+  .footer_menu{
+    display: none;
+    font-size: 12px;
+  }
+
+  .footer_email{
+    display: block;
+    margin-top: 6vw;
+    margin-left: 15vw;
+    font-size: 12px;
+    line-height: 10vw;
+  }
+
+  .email_p,
+  .email_p_address{
+    width: 50vw;
+  }
+
+  .email_p_address{
+    line-height: 5vw;
+  }
+  .facebook{
+    position: relative;
+    width: 8.5vw;
+    left: 82.5vw;
+    top: -26.5vw;
+  }
+
+  .insta{
+    position: relative;
+    width: 8.5vw;
+    left: 73vw;
+    top: -9vw;
+  }
 
 }
