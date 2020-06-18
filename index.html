@@ -4,18 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>web uniin</title>
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main_d.css">
+    <script  src="anime-master/lib/anime.min.js">
+    </script>
   </head>
   <body>
     <div class="square_left">  </div>
     <div class="logo">
       <img class="logo" src="img/logo.png" alt="logo">
     </div>
+    <div class="img_menu">
+      <div class="line_1">  </div>
+      <div class="line_2">  </div>
+      <div class="line_3">  </div>
+    </div>
     <header class="header">
-      <div class="header_burger">
-          <span></span>
+      <div class="header_burger" id="menuburger">
       </div>
-      <nav class="header_menu">
         <ul class="header_list">
           <li>
             <a class="header_link_1" href="index.html">главная</a>
@@ -27,7 +34,6 @@
             <a class="header_link_3" href="contacts.html">контакты</a>
           </li>
         </ul>
-      </nav>
     </header>
     <div class="search">
         <input type="search" required>
@@ -62,13 +68,14 @@
       <img class="img3" src="img/img3.svg" alt="/">
       <img class="img5"src="img/img5.svg" alt="">
       <h2 class="button_buy"><a class="buy" href="catalog.html">купить</a></h2>
-      <p class="mood">грусть
+      <div class="mood">
+        <p class="mood_p">грусть
         радость
-        злость
-        скука
+        злость</p>
+        <p class="mood_p_3">скука
         страх
-        отвращение
-      </p>
+        отвращение</p>
+      </div>
       <div class="color">
         <div class="blue"></div>
         <div class="yellow"></div>
@@ -93,10 +100,10 @@
       <img class="facebook" src="img/facebook.svg" alt="">
       <img class="insta" src="img/insta.svg" alt="">
     </div>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="js/product.js"></script>
 
-    <!-- <img class="back"src="img/back.svg" alt=""> -->
-
-    <script src="js/main.js"></script>
 
   </body>
 </html>

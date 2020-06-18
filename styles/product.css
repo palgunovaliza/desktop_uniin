@@ -72,7 +72,7 @@ input {
   position: fixed;
   display: none;
 }
-/* 
+/*
 .img_menu_close{
   position: fixed;
   display: none;
@@ -173,6 +173,16 @@ input {
 .planet{
   width: 33vw;
   margin: 3vw 0vw 0vw 0vw;
+}
+
+.planet_1_V2{
+  width: 28vw;
+  margin: 3.7vw 0vw 0vw 2.5vw;
+}
+.planet_1_V3{
+  transform: rotate(-7.5deg);
+  width: 31vw;
+  margin: 4.9vw 0vw 0vw 1vw;
 }
 
 
@@ -798,6 +808,20 @@ h2{
       margin-left: 2vw;
     }
 
+
+
+    .planet_1_V2{
+      width: 58vw;
+      margin: 2vw 0vw 0vw 7.5vw;
+    }
+
+    .planet_1_V3{
+      transform: rotate(-7.5deg);
+      width: 64vw;
+      margin: 4.9vw 0vw 0vw 4vw;
+    }
+
+
     .product-card-slider {
     width: 91%;
     }
@@ -996,4 +1020,6 @@ h2{
       left: 73vw;
       top: -9vw;
     }
+
+
 }

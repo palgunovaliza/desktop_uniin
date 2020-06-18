@@ -779,6 +779,54 @@ input.text {
       top: -9vw;
     }
 
+    .random-position-planet1{
+      position: absolute;
+      width: 15vw;
+      margin-top: 10vw;
+      margin-left: 10vw;
+      z-index: 10;
+    }
+
+    .random-position-planet2{
+      position: absolute;
+      width: 23vw;
+      margin-top: 117vw;
+      margin-left: 62vw;
+      z-index: 10;
+    }
+
+    .random-position-planet3{
+      position: absolute;
+      width: 26vw;
+      margin-top: 93vw;
+      margin-left: 9vw;
+      z-index: 15;
+    }
+
+    .random-position-planet4{
+      position: absolute;
+      width: 30vw;
+      margin-top: 16vw;
+      margin-left: 81vw;
+      z-index: 10;
+    }
+
+    .random-position-planet5{
+      position: absolute;
+      width: 33vw;
+      margin-top: 9vw;
+      margin-left: 30vw;
+      z-index: 15;
+    }
+
+    .random-position-planet6{
+      position: absolute;
+      width: 20vw;
+      margin-top: 36vw;
+      margin-left: 3vw;
+      z-index: 99;
+    }
+
 
 
 }
